@@ -8,6 +8,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  color: #434455;
 }
 
 .link {
@@ -22,7 +23,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -65,7 +66,8 @@ body {
   color: #404bbf;
 }
 
-/* секция герой */
+/* --------------секция герой----------- */
+
 .hero {
   background-color: #2e2f42;
 }
@@ -85,6 +87,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
+  letter-spacing: 0.04em;
   color: #ffffff;
   background: #4d5ae5;
   cursor: pointer;
@@ -132,7 +135,7 @@ body {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -182,6 +185,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   display: flex;
   align-items: center;
   text-align: center;
@@ -203,7 +207,7 @@ body {
 }
 .project-item {
 }
-.project-item-title {
+.project-link-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -211,7 +215,7 @@ body {
   color: var(--title-color--);
 }
 
-.project-text {
+.project-link-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
